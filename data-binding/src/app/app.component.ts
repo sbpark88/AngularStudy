@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'data-binding';
+  title = '';
+
+  // tslint:disable-next-line:typedef
+  changeTitle() {
+    this.title = 'GreenDreamTree';
+  }
 }
+
